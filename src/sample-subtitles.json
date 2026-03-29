@@ -1,0 +1,6 @@
+[
+  {"startMs": 0, "endMs": 1800, "text": "Ini contoh workflow video lokal."},
+  {"startMs": 1801, "endMs": 4200, "text": "Kamu bisa transkrip pakai Whisper."},
+  {"startMs": 4201, "endMs": 7000, "text": "Lalu render caption besar dengan Remotion."},
+  {"startMs": 7001, "endMs": 9800, "text": "Dan poles audio atau crop pakai FFmpeg."}
+]
