@@ -1,0 +1,22 @@
+{
+  "name": "remotion-local-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "100% local/open-source starter for captioned shorts using Remotion + Whisper + FFmpeg",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render src/index.tsx CaptionedShort out/captioned-short.mp4",
+    "transcribe": "bash scripts/transcribe.sh assets/video/input.mp4 Indonesian",
+    "prep": "bash scripts/prepare-assets.sh"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.340"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1"
+  }
+}
